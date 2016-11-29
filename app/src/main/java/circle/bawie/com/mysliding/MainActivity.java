@@ -1,13 +1,15 @@
 package circle.bawie.com.mysliding;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 
 public class MainActivity extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,5 +30,6 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+        Log.d("32312132321","dsaffdsfsad");
     }
 }
